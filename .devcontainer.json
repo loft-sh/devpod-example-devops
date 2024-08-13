@@ -1,0 +1,17 @@
+{
+  "name": "DevOps & Platform",
+  "image": "devpodhugoboss.azurecr.io/devpod-hugo-boss/devops:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "ms-azuretools.vscode-azureresourcegroups"
+      ]
+    }
+  },
+  "postCreateCommand": "./post-create.sh",
+  "remoteUser": "hugoboss"
+}
