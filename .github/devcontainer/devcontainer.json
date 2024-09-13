@@ -11,7 +11,7 @@
       "installOhMyZsh": true,
       "installOhMyZshConfig": true,
       "upgradePackages": true,
-      "username": "hugoboss"
+      "username": "devpod"
     },
     "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
       "version": "latest",
@@ -27,8 +27,8 @@
   },
   "customizations": {
     "devpod": {
-      "prebuildRepository": "devpodhugoboss.azurecr.io/devpod-hugo-boss/devops"
+      "prebuildRepository": "loftdevpod.azurecr.io/examples/devpod-example-devops"
     }
   },
-  "remoteUser": "hugoboss"
+  "remoteUser": "devpod"
 }

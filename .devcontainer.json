@@ -1,6 +1,6 @@
 {
   "name": "DevOps & Platform",
-  "image": "devpodhugoboss.azurecr.io/devpod-hugo-boss/devops:latest",
+  "image": "loftdevpod.azurecr.io/examples/devpod-example-devops:latest",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -13,5 +13,5 @@
     }
   },
   "postCreateCommand": "./post-create.sh",
-  "remoteUser": "hugoboss"
+  "remoteUser": "devpod"
 }
