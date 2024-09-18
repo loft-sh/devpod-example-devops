@@ -1,6 +1,6 @@
 {
   "name": "DevOps & Platform",
-  "image": "loftdevpod.azurecr.io/examples/devpod-example-devops:latest",
+  "image": "bryankneisloft/devpod-example-devops:latest",
   "customizations": {
     "vscode": {
       "extensions": [
